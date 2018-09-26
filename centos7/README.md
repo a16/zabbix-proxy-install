@@ -41,7 +41,7 @@
 ```
 
 7. zabbix-proxy config設定  
-拠点ごとに違うので別途情報お渡しします。以下は内容の説明
+拠点ごとに違うので別途情報お渡しします。
 
 ```bash
 % sudo vi /etc/zabbix/zabbix_proxy.conf
@@ -50,6 +50,8 @@
 % sudo vi /etc/zabbix/**********.psk
 ※渡したファイルの内容をコピペしてください。
 ```
+
+以下は内容の説明
 
 ```bash
 % sudo cat /etc/zabbix/zabbix_proxy.conf
