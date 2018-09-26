@@ -6,8 +6,6 @@ zabbix-proxyのインストール手順
   - 対象サーバの１つのIFに固定IPv4アドレスが付与されインターネットへのリーチャビリティが確保されていること
 
 2. インストール方法について
-  以下の４つのうちどれかでインストール
-  通常インストール(Centos7)
-  通常インストール(Debian9)
-  Ansibleでインストール(OSは自動で判別)
-  Dockerでインストール
+  以下のどれかでインストール
+  - [通常インストール(Centos7)](https://github.com/a16/zabbix-proxy-install/centos7/README.md)
+  - [通常インストール(Debian9)](https://github.com/a16/zabbix-proxy-install/centos7/README.md)
