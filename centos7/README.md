@@ -32,11 +32,14 @@
 
 ```bash
 % sudo yum install zabbix-proxy-sqlite3
+yes/noを聞かれたらy
 ```
 
 6. sqlite3スキーマ読み込み
 
 ```bash
+% sudo mkdir /var/lib/zabbix
+% sudo chown zabbix:zabbix /var/lib/zabbix
 % sudo -u zabbix sh -c "zcat /usr/share/doc/zabbix-proxy-sqlite3-3.4.14/schema.sql.gz | sqlite3 /var/lib/zabbix/zabbix_proxy.db"
 ```
 
@@ -45,10 +48,12 @@
 
 ```bash
 % sudo vi /etc/zabbix/zabbix_proxy.conf
-※渡したファイルの内容をコピペしてください。
+※渡したファイルの内容をコピペするかパラメータを修正してください。
 
 % sudo vi /etc/zabbix/**********.psk
 ※渡したファイルの内容をコピペしてください。
+
+% sudo chown -R zabbix:zabbix /etc/zabbix
 ```
 
 以下は内容の説明
