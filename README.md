@@ -7,5 +7,5 @@ zabbix-proxyのインストール手順
 
 2. インストール方法について
   以下のどれかでインストール
-  - [通常インストール(Centos7)](https://github.com/a16/zabbix-proxy-install/centos7/README.md)
-  - [通常インストール(Debian9)](https://github.com/a16/zabbix-proxy-install/debian9/README.md)
+  - [通常インストール(Centos7)](centos7/README.md)
+  - [通常インストール(Debian9)](debian9/README.md)
